@@ -2,17 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <form action="/LoginAndLogout/LoginServlet"  method="post">
-        用户名：<input  type="text" name="username" > <br>
-        密码：<input  type="password" name="password" > <br>
-        性别：<input  type="radio" name="sex" value="m">男  <input  type="radio" name="sex" value="f">女<br>
-        出生年月日：<input  type="text" name="birthday" > <br>
-        <input type="submit" value="提交">
+    <title>注册</title>
+    <style>
+        @import "../css/base.css";
+         body{
+             background: url("../img/background.png") no-repeat;
+             background-size: 100%;
+         }
+        .lay_out{
+            width: 900px;
+            height: 400px;
+            border: 8px solid #EEEEEE;
+            background-color: white;
+            margin: auto;
+            margin-top: 15px;
+        }
+        .rg_left{
+           /* border: 1px red solid;*/
+            float: left;
+            margin: 15px;
+        }
+        .rg_left > p:first-child{
+            color: #FFD026;
+            font-size: 20px;
+        }
+        .rg_left > p:last-child{
+            color: #A6A6A6;
+            font-size: 20px;
+        }
+        .rg_center{
+            /*border: 1px red solid;*/
+            float: left;
+            width: 550px;
+            padding-top: 25px;
+        }
+        .rg_right{
+            /*border: 1px red solid;*/
+            float: right;
+            margin: 15px;
+        }
+        .rg_right > p:last-child{
+            color: #A6A6A6;
+            font-size: 15px;
+        }
+        .rg_right > p a{
+            color:  pink;
+            font-size: 15px;
+        }
 
-    </form>
+        </style>
+</head>
+<body id="register" >
+     <div  class="lay_out">
+         <div class="rg_left">
+             <p> 新用户注册</p>
+             <p>USER REGISTER</p>
+         </div>
+         <div class="rg_center">
+             <form action="/LoginAndLogout/LoginServlet"  method="post">
+                 <table>
+                     <tr>
+                         <td class="td_left">用户名</td>
+                         <td class="td_right"><input  type="text" name="username" id="username" placeholder="请输入用户名"></td>
+                     </tr>
+                     <tr>
+                         <td class="td_left">密码</td>
+                         <td class="td_right"><input  type="password" name="password"  id="password" placeholder="请输入密码" ></td>
+                     </tr>
+                     <tr>
+                         <td class="td_left">性别</td>
+                         <td class="td_right"><input  type="radio" name="sex" value="m">男  <input  type="radio" name="sex" value="f">女</td>
+                     </tr>
+                     <tr>
+                         <td class="td_left">生日</td>
+                         <td class="td_right"><input  type="text" name="birthday" id="birthday" placeholder="YYYY-MM-ddd"></td>
+                     </tr>
+                     <tr>
+                         <td colspan="2" align="center"><input type="submit" value="注册" id="submit"></td>
+                     </tr>
+
+                 </table>
+
+             </form>
+         </div>
+         <div class="rg_right">
+             <p>已有账户 ?
+             <a  href="#">登录</a> </p>
+         </div>
+
+     </div>
 
 
 </body>

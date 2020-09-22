@@ -9,10 +9,14 @@
 <html>
   <head>
     <title>$Title$</title>
+      <style>
+          @import "css/base.css";
+      </style>
   </head>
+
   <body>
-       <h1>javaWeb的基础</h1>
-       <a href="/LoginAndLogout/html/register.html">注册</a>
-       <a href="/LoginAndLogout/login.html">登录</a>
+       <h1 class="title1" id="title1">javaWeb的基础</h1>
+       <a class="link" href="/LoginAndLogout/html/register.html">注册</a>
+       <a class="link" href="/LoginAndLogout/login.html">登录</a>
   </body>
 </html>
