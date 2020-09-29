@@ -13,21 +13,21 @@
     padding-left: 40px;
 }
 #username{
-    width: 251px;
+    width: 150px;
     height: 30px;
     border: 1px solid #A6A6A6;
     border-radius: 5px;
     padding-left: 5px;
 }
 #password{
-    width: 251px;
+    width: 150px;
     height: 30px;
     border: 1px solid #A6A6A6;
     border-radius: 5px;
     padding-left: 5px;
 }
 #birthday{
-    width: 251px;
+    width: 150px;
     height: 30px;
     border: 1px solid #A6A6A6;
     border-radius: 5px;
