@@ -18,8 +18,8 @@ package cn.lw.control;
         import java.util.Date;
         import java.util.Map;
 
-@WebServlet("/LoginServlet")
-public class LoginServlet extends HttpServlet {
+@WebServlet("/Register")
+public class Register extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Map<String, String[]> parameterMap = request.getParameterMap();
         User user=new User();
