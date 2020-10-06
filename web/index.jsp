@@ -53,9 +53,13 @@
        <br>Cookie技术是属于客户端（浏览器）保存信息的技术。它的基本原理是服务器相应的时候讲键值信息传递给浏览器，浏览器下次请求的时候将信息传递给服务器，服务器得到信息后可以确定客户端的身份。
        <br>  <img src="img/Cookie.png">
        <br>  <img src="img/cookie1.png" alt="aaaa">
-       <br>  <img src="img/cookie2.png">
+       <br>  <img src="img/cookie3.png">
 
-
+       <h1>  Session</h1>
+       <br>  <img src="img/Session1.png">
+       <br>  <img src="img/Session2.png">
+       <br>  <img src="img/session3.png">
+       <br>  <img src="img/session4.png">
 
   </body>
 </html>
