@@ -60,6 +60,8 @@
        <br>  <img src="img/Session2.png">
        <br>  <img src="img/session3.png">
        <br>  <img src="img/session4.png">
+       <br>  将所有的Servlet(  LogOut  和  register)都整合到 UserTestServlet中  。
+       <br>  分析UserTestServlet 中的  login  分析是如何将服务代码分离到  service.UserTestService中的。
 
   </body>
 </html>
